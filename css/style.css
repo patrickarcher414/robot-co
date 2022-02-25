@@ -12,9 +12,17 @@ header {
 }
 #hero {
     text-align: center;
+    background: black;
+    color: white;
+    padding: 60px 15px;
+    font-size: 42px;
+    background-image: url("../images/background.png");
 }
 .callout {
     text-align: center;
+    border: 5px solid #47a0ce;
+    margin: 0 30px;
+    padding: 20px;
 }
 .dark-bg {
     background-color: black;
@@ -27,5 +35,27 @@ nav {
     padding: 30px 15px 15px 15px;
 }
 #logo-cont {
-    padding-top: 30px;
+    padding: 20px 10px;
+    display: inline-block;
+    background: #47a0ce;
+    position: relative;
+    top: 20px;
+}
+#logo-cont h2 {
+    margin-bottom: 0 2px;
+}
+nav a {
+    font-size: 24px;
+    margin: 0 30px;
+}
+main {
+    display: flex;
+    justify-content: center;
+    padding: 60px 15px;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    margin: 0;
 }
